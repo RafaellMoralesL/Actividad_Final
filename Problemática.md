@@ -15,8 +15,8 @@ y por último de 50 años en adelante un recargo del 30%_
 7. _Si tiene hijos es un recargo del 20%_
 8. _5% de recargo en base a su salario_
 9. _35$ de recargo por cada propiedad que posea_
-Todo esto sobre el precio base del seguro.
-Luego todo esto se suma para darle un total del recargo que se le agregará por cada condición que cumpla y se suma para darle un valor total de su cotización
+_Todo esto sobre el precio base del seguro._
+10. Luego todo esto se suma para darle un total del recargo que se le agregará por cada condición que cumpla y se suma para darle un valor total de su cotización
 
 
 
