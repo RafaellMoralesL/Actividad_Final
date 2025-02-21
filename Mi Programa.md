@@ -1,5 +1,5 @@
 # Mi Programa
-##Funcionamiento
+## Funcionamiento
 Mi programa crea un bucle para continuar creando cotizaciones del cual se puede salir cuando se escriba la palabra "salir"
 dentro del bucle se pregunta al usuario, su nombre, su edad, si está casado y que edad tiene su conyúgue, si tiene hijos y cuantos hijos tiene, si tiene propiedades y cuantas propiedades tiene, y sus ingresos.
 Si al colocar en edad algo menor a 18, le avisa al usuario que no puede proceder con la cotización, le agradece y cierra el programa.
@@ -17,9 +17,9 @@ Si no, le vuelve a preguntar todo dentro del bucle hasta que decida que son sufi
 Le agradece al usuario por haber utilizado el programa y termina. 
 
 
-##Puntos a tomar en cuenta
+## Puntos a tomar en cuenta
 Lo importante del programa es considerar los porcentajes de los recargos para que sean procesados correctamente, ya que normalmente no se puede colocar en %, se colocan con decimales, siendo 10% = 0.1 y así continuamente. Otro punto importante es definir los rangos correctamente, para evitar problemas en el cálculo final. Lo demas seria manterner el orden de las variables y saber los nombres que se le asignan a cada uno, para evitar que el programa tome las variables incorrectas o no sepa que utilizar ya que la variable tiene un nombre distinto. Otro punto importante es que las variables se estén multiplicando y sumando correctamente, ya que puede llevar a montos completamente inimaginables al final del cálculo, así que hay que darse cuenta según la propia lógica si se definieron bien que cosas deben ir con cuales. 
 
-##¿Qué se puede mejorar? 
+## ¿Qué se puede mejorar? 
 Honestamente, creo que demasiadas cosas, diria que muchas de mis variables poseen nombres confusos para alguien que no sea yo, y en los prompt mis instrucciones las siento que se van muy para un lado o para el otro, o intentan explicar mucho que se debe colocar, o simplemente deja algo muy implícito, que para alguien con poca experiencia utilizando programas puede llegar a confundir mucho. Otra cosa es las comprobaciones de datos, investigando un poco, encontré que hay formas de que se compruebe lo que el usuario colocó para evitar que por ejemplo, coloque letras en un lugar donde solo se utilizan números. Y ser constante en el código, en algunas funciones dejé mas espacios que en otros, los ; y etc.
 Todo esto por nombrar algunas cosas.
