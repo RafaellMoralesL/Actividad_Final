@@ -12,7 +12,7 @@
 - [ ] Crear una variable para que cuando se cumpla la condición pregunte al usuario la cantidad de las que depende cada recargo, la edad de su conyúgue, la cantidad de hijos y de 
 propiedades que posea.
 - [ ] Crear condiciones para calcular los recargos en base al rango de edad con el precio base del seguro, 10%, 20% y 30$, respectivamente.
-- [ ] Calcular con el precio base del seguro y con las respuestas del usuario, cada recargo faltante de forma individual, edad del conyúgue con 10%, 20% y 30%, 20% por cada hijo, 35% por cada propiedad y 5% de sus ingresos. 
+- [ ] Calcular con el precio base del seguro y con las respuestas del usuario, cada recargo faltante de forma individual, edad del conyúgue con 10%, 20% y 30% según el rango de edad de su conyúgue, 20% por cada hijo, 35% por cada propiedad y 5% de sus ingresos. 
 - [ ] Sumar la cantidad de todos los recargos que apliquen al usuario
 - [ ] Sumar la cantidad total del recargo al precio base 
 - [ ] Decirle al usuario la cantidad de recargo que se le aplicaría si contrata el seguro
