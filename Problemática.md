@@ -1,6 +1,6 @@
 # ¿Qué se debe hacer o qué se solicita?
 
-`Una empresa llamada Tk-U necesita crear una forma de realizar cotizaciones automáticas para poder atender a la mayor cantidad de clientes potenciales
+Una empresa llamada Tk-U necesita crear una forma de realizar cotizaciones automáticas para poder atender a la mayor cantidad de clientes potenciales
 ya que hasta el momento hacian todas las cotizaciones manualmente.
 Finalmente el programa que necesitan para facilitar las cosas debe de hacer lo siguiente
 __Identificar que el cliente sea mayor de edad__
@@ -15,7 +15,7 @@ __Si tiene hijos es un recargo del 20%
 __5% de recargo en base a su salario__
 __35$ de recargo por cada propiedad que posea__ 
 Todo esto sobre el precio base del seguro.
-Luego todo esto se suma para darle un total del recargo que se le agregará por cada condición que cumpla y se suma para darle un valor total de su cotización`
+Luego todo esto se suma para darle un total del recargo que se le agregará por cada condición que cumpla y se suma para darle un valor total de su cotización
 
 
 
