@@ -75,30 +75,30 @@ if("SI" == propiedades.toUpperCase()){
 var ingresos = parseInt(prompt("Escriba su cantidad de sus ingresos"))
 
     if(edad >= 18 && edad <= 24){
-      recargo = preciobase * edad1;
-    }
-    elseif(edad >= 25 && edad <=49); {
-      recargo = preciobase * edad2;
-    }
-    elseif(edad >=50); {
-      recargo = preciobase * edad3;
-    }
+      recargo = preciobase * edad1;}
+  else if(edad >= 25 && edad <=49){
+    recargo = preciobase * edad2;
+  }
+  else if(edad >= 50){
+    recargo = preciobase * edad3
+  }
+   
 
 
 if(edad_conyuge) {
   if (edad_conyuge >= 18 && edad <= 24) {
-    recargo_conyuge = preciobase * edad4;
+    recargo_conyuge = preciobase * edad4
   }
-    elseif (edad_conyuge >= 25 && edad <=49); {
+    else if (edad_conyuge >= 25 && edad <=49) {
       recargo_conyuge = preciobase * edad5
     }
-    elseif(edad_conyuge >=50); {
+      else if(edad_conyuge >=50) {
       recargo_conyuge = preciobase * edad6
     }
 }
- recargo_hjo = preciobase * (cantidad_hijos * recargo_hijos)
- recargo_prop = preciobase * (cantidad_propiedades * recargo_propiedades)
- recargo_ing = recargo_ingresos * ingresos;
+ recargo_hjo = preciobase * (cantidad_hijos * recargo_hijos);
+ recargo_prop = preciobase * (cantidad_propiedades * recargo_propiedades);
+ recargo_ing = preciobase * recargo_ingresos * ingresos;
  
  recargo_total = recargo_hjo + recargo_prop + recargo_ing + recargo + recargo_conyuge;
  
@@ -112,7 +112,6 @@ cotizacion = prompt("Usted entró al área de cotización de TK-U, para salir de
 }
 
 alert("Gracias Por usar Nuestro Servicio de Cotización")
-
 
 </script>
 </body>
