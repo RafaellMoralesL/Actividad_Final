@@ -1,7 +1,25 @@
-///parseInt()
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2025 by anonymous (http://jsbin.com/deyapunove/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+<script id="jsbin-javascript">
+  ///parseInt()
 
 ///text.toUpperCase()
-
 var cotizacion = prompt("Usted entró al área de cotización de TK-U, para salir de la cotización");
 while("salir" != cotizacion.toLowerCase()){
 
@@ -20,9 +38,9 @@ var recargo_ingresos = 0.05;
 
 var recargo = 0;
 var recargo_conyuge = 0;
-var recargo_ing = 0;
-var recargo_prop = 0;
-var recargo_hjo = 0;
+var recargo_ingresos_total = 0;
+var recargo_propiedad_total = 0;
+var recargo_hijos_total = 0;
 var recargo_total = 0;
 
 var precio_final = 0; 
@@ -40,7 +58,7 @@ else{
 }
   
 var casado = prompt("¿Es Usted Casado? ", "Si/No")
-var edad_conyuge
+var edad_conyuge = null;
 if("SI" == casado.toUpperCase()){
   edad_conyuge = parseInt(prompt("¿Qué edad tiene su Esposo/a?"))
 }
@@ -67,22 +85,22 @@ var ingresos = parseInt(prompt("Escriba su cantidad de sus ingresos"))
    
 
 
-if(edad_conyuge) {
-  if (edad_conyuge >= 18 && edad <= 24) {
+if(edad_conyuge != null) {
+  if (edad_conyuge >= 18 && edad_conyuge <= 24) {
     recargo_conyuge = preciobase * edad4
   }
-    else if (edad_conyuge >= 25 && edad <=49) {
+    else if (edad_conyuge >= 25 && edad_conyuge <=49) {
       recargo_conyuge = preciobase * edad5
     }
       else if(edad_conyuge >=50) {
       recargo_conyuge = preciobase * edad6
     }
 }
- recargo_hjo = preciobase * (cantidad_hijos * recargo_hijos);
- recargo_prop = preciobase * (cantidad_propiedades * recargo_propiedades);
- recargo_ing = recargo_ingresos * ingresos;
+ recargo_hijos_total = preciobase * (cantidad_hijos * recargo_hijos);
+ recargo_propiedad_total = preciobase * (cantidad_propiedades * recargo_propiedades);
+ recargo_ingresos_total = recargo_ingresos * ingresos;
  
- recargo_total = recargo_hjo + recargo_prop + recargo_ing + recargo + recargo_conyuge;
+ recargo_total = recargo_hijos_total + recargo_propiedad_total + recargo_ingresos_total + recargo + recargo_conyuge;
  
  precio_final = preciobase + recargo_total
  
@@ -95,5 +113,6 @@ cotizacion = prompt("Usted entró al área de cotización de TK-U, para salir de
 
 alert("Gracias Por usar Nuestro Servicio de Cotización")
 
-
-
+</script>
+</body>
+</html>
