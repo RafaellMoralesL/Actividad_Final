@@ -2,7 +2,7 @@
 
 ///text.toUpperCase()
 
-var cotizacion = prompt("Usted entró al área de cotización de TK-U, para salir de la cotización");
+var cotizacion = prompt("Usted entró al área de cotización de TK-U, para salir de la cotización escriba salir");
 while("salir" != cotizacion.toLowerCase()){
 
 var preciobase = 2000;
